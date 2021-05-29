@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport"content="width=device-width, initial-scale=1.0">
+  <title>Dubai</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header3">
+    <nav>
+      <a href="Dubai.html"><img src="images/d_t.png"
+        style="width: 146px;height: 46px;"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="Dubai.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="lifestyle.html">LIFESTYLE</a></li>
+          <li><a href="Events.html">EVENTS</a></li>
+          <li><a href="Contact Us.html">CONNECT WITH US</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+   <h1>Connect With Us</h1>
+  </section>
+
+  <!------ Connect with us ------>
+
+  <div class="container">
+    <h3>Contact Form</h3>
+    <form action="#">
+      <label for="first_name">First Name</label>
+      <input name="first_name" type="text" required placeholder="Neville"/>
+      <br>
+      <label for="last_name">Last Name</label>
+      <input name="last_name" type="text" required placeholder="George"/>
+      <br>
+      <label for="email">Email</label>
+      <input name="email" type="email" required placeholder="bigbawler@ysob.com"/>
+      <br>
+      <label for="message">Message</label><br>
+      <textarea name="message" cols="30" rows="10" placeholder="Enter your message here ..." required> </textarea>
+      <div class="center">
+        <a href="Thank_you.html">submit</a>
+      </div>
+    </form>	
+  </div>
+
+  <!--- Footer --->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p> We create simple websites for fun</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+      <p>Created By Neville George<i class="fa fa-heart-o"></i></p>
+  </section>
+
+  <!--------JavaScript for Toggle Menu-------->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+</html>

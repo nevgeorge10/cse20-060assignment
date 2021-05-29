@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport"content="width=device-width, initial-scale=1.0">
+  <title>Dubai</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header1">
+    <nav>
+      <a href="Dubai.html"><img src="images/d_t.png"
+        style="width: 146px;height: 46px;"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="Dubai.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="lifestyle.html">LIFESTYLE</a></li>
+          <li><a href="Events.html">EVENTS</a></li>
+          <li><a href="Contact Us.html">CONNECT WITH US</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+   <h1>Dubai Events</h1>
+  </section>
+
+  <!------ Events ------>
+
+  <section class="lifestyle">
+    <div class="row">
+      <div class="lifestyle-col">
+        <h3>DUBAI SHOPPING FESTIVAL</h3>
+        <h5>Dates: 17th December 2020 to 30th January 2021</h5>
+        <a href="shopping"><img src="images/Annual-events-in-Dubai-30th-Dec-1024x640.jpg"
+          style="width: 270px; height: 222px;"></a>
+          <p>With crazy sales and unbelievable discounts running across major brands, the Dubai Shopping Festival secures the top spot on our list of Dubai’s biggest annual events.</p>
+      </div>
+      <div class="lifestyle-col">
+        <h3>DUBAI JAZZ FESTIVAL</h3>
+        <h5>Dates: To be announced</h5>
+        <a href="festival"><img src="images/Annual-events-in-Dubai-30th-Dec-A-1024x640.jpg"
+          style="width: 270px; height: 222px;"></a>
+          <p>Held at the Dubai Media City Amphitheatre, Dubai Jazz Festival is another highly anticipated music festivals in Dubai. </p>
+      </div>
+    </div>
+    <div class="row1">
+      <div class="lifestyle-col">
+        <h3>NATIONAL DAY CELEBRATION</h3>
+        <h5>2nd December</h5>
+        <a href="celebration"><img src="images/Annual-events-in-Dubai-30th-Dec-B-1024x640.jpg"
+        style="width: 270px; height: 200px;"></a>
+        <p>Our final feature is one of the most anticipated annual celebrations in Dubai – the UAE National Day, which falls on the 2nd of December.</p>
+      </div>
+      <div class="lifestyle-col">
+        <h3>DUBAI SUMMER SURPRISES</h3>
+        <h5>Dates: 24th June to 4th September 2021</h5>
+        <a href="surprises"><img src="images/dubai-summer-surprises-cover-image-001.jpg"
+        style="width: 270px; height: 200px;"></a>
+        <p>The Dubai Summer Surprises (DSS) is a sales extravaganza that takes place right after the schools close for the summer break.</p>
+      </div>
+    </div>
+    <div class="row2">
+      <div class="lifestyle-col">
+        <h3>DUBAI FOOD FESTIVAL</h3>
+        <h5>Dates: 25th March to 17th April 2021</h5>
+        <a href="Food"><img src="images/Dubai-Food-Fest.jpg"
+        style="width: 270px; height: 200px;"></a>
+        <p>To all the foodies out there, this is one of the annual festivals in Dubai that should be on your calendar. Dubai Food Festival visitors can enjoy dining at some of the most incredible restaurants and enjoy exceptional discounted deals.</p>
+      </div>
+      <div class="lifestyle-col">
+        <h3>DUBAI FITNESS CHALLENGE</h3>
+        <h5>Dates: 29th October to 27th November 2021</h5>
+        <a href="fitness"><img src="images/Dubai-Fitness-Challenge-2020.jpg"
+        style="width: 270px; height: 180px;"></a>
+        <p> The purpose of the event is to challenge residents to opt for a healthier lifestyle by participating in 30 minutes of exercise for 30 consecutive days.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--- Footer --->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p> We create simple websites for fun</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+      <p>Created By Neville George<i class="fa fa-heart-o"></i></p>
+  </section>
+
+  <!--------JavaScript for Toggle Menu-------->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport"content="width=device-width, initial-scale=1.0">
+  <title>Dubai</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="Dubai.html"><img src="images/d_t.png"
+        style="width: 146px;height: 46px;"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="Dubai.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="lifestyle.html">LIFESTYLE</a></li>
+          <li><a href="Events.html">EVENTS</a></li>
+          <li><a href="Contact Us.html">CONNECT WITH US</a></li>
+        </ul>
+     </div>
+     <i class="fa fa-bars" onclick="showMenu()"></i>
+   </nav>
+   <h1>About Dubai</h1>
+  </section>
+
+  <!----about dubai---->
+
+
+   <section class="About">
+    <div class="row">
+       <div class="about-col">
+       <h3>The History Of Dubai</h3>
+       <h5>Just A Few Facts About Dubai</h5>
+       <p>- The first human settlement in the city was in 3000 BC and these were Bedouin cattle herders.<br>
+          - Dubai was under the control of the Sassanid Empire, a Neo-Persian dynasty up until the 7th century.<br>
+          - Before oil was discovered, UAE’s economy relied on trading, pearling and fishing. Pearls from the city were traded far and wide all the way to Rome, Venice, India and Srilanka and the money earned off it strengthened the economy of the country.<br> 
+          - Dubai got independence from Abu Dhabi in 1833.<br> 
+          - The major turning point in the history of Dubai was the discovery of oil from Dubai Fateh Oil Field in 1966. It changed the economic dynamics of the city forever. Together, Qatar and Dubai created a new currency, the Riyal that enabled Dubai to transcend to greater heights. In 1969, Dubai made the first shipment of oil and cemented its name in history amongst the most progressive cities of the world.</p>
+       </div>
+       <div class="about-col">
+       <h3> What is Dubai Today?</h3>
+       <p>Dubai is a city with a population of about 3.3 million people and emirate in the United Arab Emirates known for luxury shopping, ultramodern architecture and a lively nightlife scene. Burj Khalifa, an 830m-tall tower, dominates the skyscraper-filled skyline. At its foot lies Dubai Fountain, with jets and lights choreographed to music. On artificial islands just offshore is Atlantis, The Palm, a resort with water and marine-animal parks.</p>
+       </div>
+    </div>
+    <div class="row1">
+      <div class="about-col">
+        <h3>The people Of Dubai today</h3>
+        <a href="MOVLOGS"><img src="images/maxresdefault.jpg"
+        style="width: 270px; height: 200px;"></a>
+        <p>Dubai ranked #21 in the Cost of Living index in 2019 — making it much cheaper than cities like Hong Kong, London, New York and Singapore, which have significant expat populations.<br>
+           Crime in Dubai is very low and the shopping, wow, you need to experience it yourself because words can't describe this experience.<br>
+           For the people that live in Dubai have it nice because there is no Income Tax.<br>
+           Dubai is a very tolerant emirate – tolerant of others’ beliefs and ways of life.  It is also one of the most moderate in terms of applying the rules of Islam to everyone’s everyday life.  Expats can buy alcohol in Dubai and also they are allowed to eat and drink during the daylight hours of Ramadan.<br>
+           Taxis are very cheap and the government is investing hugely into a public transportation system. Cars and petrol are very cheap indeed.</p>
+      </div>
+    </div>
+  </section>
+
+  <!--- Footer --->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p> We create simple websites for fun</p>
+    <div class="icons">
+      <i class="fa fa-facebook"></i>
+      <i class="fa fa-twitter"></i>
+      <i class="fa fa-instagram"></i>
+      <i class="fa fa-linkedin"></i>
+    </div>
+      <p>Created By Neville George<i class="fa fa-heart-o"></i></p>
+  </section>
+
+  <!--------JavaScript for Toggle Menu-------->
+  <script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+      navLinks.style.right = "0";
+    }
+    function hideMenu(){
+      navLinks.style.right = "-200px";
+    }
+
+  </script>
+
+</body>
+</html>
